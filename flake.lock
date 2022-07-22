@@ -1,0 +1,90 @@
+{
+  "nodes": {
+    "ago-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-ago-master": "src-ago-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1658201214,
+        "narHash": "sha256-FXWnmC/jRb/HryQLA9319246R1TzwfwH44Mx5/Zj/DI=",
+        "owner": "nim-nix-pkgs",
+        "repo": "ago",
+        "rev": "80112e1a63fe6e12a12a2a70f8c7bb8ebd20aa83",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "ago",
+        "type": "github"
+      }
+    },
+    "flakeNimbleLib": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1648105061,
+        "narHash": "sha256-Je25qNlH4xrH3+m6vIq6yPvdfQ80FRTwX4JOhrRLduc=",
+        "owner": "riinr",
+        "repo": "nim-flakes-lib",
+        "rev": "f1ec5e2f15b9f717c33b6942ce7cb344ff868522",
+        "type": "github"
+      },
+      "original": {
+        "owner": "riinr",
+        "ref": "master",
+        "repo": "nim-flakes-lib",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-BBeCZwZImtjP3oYy4WogkQYy5OxNyfNciVSc1AfZgLQ=",
+        "path": "/nix/store/z8fi1f38y14lmsyhnph1l98qr3r9x7wr-source",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "ago-master": "ago-master",
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs"
+      }
+    },
+    "src-ago-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1611868110,
+        "narHash": "sha256-r9CnExvutw7BU7OHMG8/c8Z9HE6WaMbpR9olg18wl2E=",
+        "owner": "daehee",
+        "repo": "ago",
+        "rev": "de420118c02fe2ad57f4b7e3d0affdb4e3bc60ee",
+        "type": "github"
+      },
+      "original": {
+        "owner": "daehee",
+        "ref": "refs/heads/master",
+        "repo": "ago",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
